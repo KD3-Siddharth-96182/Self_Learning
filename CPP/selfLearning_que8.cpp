@@ -40,7 +40,7 @@ class ProgrammingTeacher:public Programmer, public Teacher{
 int main(){
 
     ProgrammingTeacher pt1;
-    // pt1.work();   // ambiguous
+    pt1.work();   // ambiguous
     pt1.Programmer::work();
     pt1.Teacher::work();
 
